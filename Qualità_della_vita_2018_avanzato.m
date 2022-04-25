@@ -1,24 +1,8 @@
 %%                                          Statistica Multivariata - Prof. Maurizio Vichi
-%%                                                                   Homework 2
+%%                                                                   
 %%                                                              Alessandro Sottile
 %%                                                                 a.a. 2020-2021
 % 
-%% Esercizio 0
-% Rinominare il file "Homework 2.mlx" con "cognome_Multivariata2.mlx". 
-% 
-% Gli esercizi assegnati di seguito dovranno essere svolti mediante questo strumento 
-% (Live Script) che permette contemporaneamente di scrivere parti di testo e codice 
-% nella stessa schermata e di elaborarli entrambi in un unico pdf.
-% 
-% Per salvare questo file come pdf: "Save" --> "Export to PDF...".
-% 
-% Per inserire parti di testo usare il comando "Text", per quelle di codice 
-% il comando "Code".
-% 
-% I passaggi effettuati per la risoluzione degli esercizi assegnati dovranno 
-% essere giustificati sia riportando il codice che commentando i risultati ottenuti 
-% e dandone una propria interpretazione.
-%% Esercizio 1
 % Per i seguenti punti, si faccia riferimento al dataset utilizzato nell'Homework 
 % 1. 
 % 
@@ -474,34 +458,6 @@ Classifica=Stampa(:,[2 1])
 % *Il seguente esercizio non dovrà essere svolto da coloro che sosterranno il 
 % preappello e dovrà dunque essere inserito nella tesine di coloro che sosterranno 
 % l'esame dall'appello di Gennario 2021.*
-%% Esercizio 2
-%% 
-% # Salvare la matrice dei dati originari $X$in un file .csv.
-% # Importare in R il file .csv creato al punto 1 (Esercizio 2). Caricare la 
-% libreria _mclust_ di R (laddove non ancora scaricata, installare il relativo 
-% pacchetto). 
-% # *Misture:* applicare il modello mistura al dataset originario (107x42) mediante 
-% la funzione "Mclust" del pacchetto m_clust. S_ulla base del BIC, quale modello 
-% è risultato il migliore e con quante componenti? Quale il secondo migliore? 
-% Commentare i risultati. ATTENZIONE: si veda l'Esercitazione del 27 novembre 
-% 2020 (<https://drive.google.com/file/d/1ACRm-G35snrqIRecuNZ2gAobCSvJ8I9G/view 
-% Esercitazione 27 novembre 2020)>.
-% # Implementare il k-means con il numero ottimale di clusters individuati da 
-% "Mclust" al punto 3 (Esercizio 2). Confrontare la classificazione risultante 
-% con quella ottenuta al punto 3 (Esercizio 2).
-% # *Analisi delle corrispondenze multiple:* ricodificare le seguenti variabili: 
-% "Consumi" (10%, 20%, 40%, 20%, 10%), "Tasso di disoccupazione giovanile" (5%; 
-% 20% ; 25%; 25% ;20%; 5%), "Spesa sociale degli enti locali per abitante"(15%, 
-% 35%, 35%, 10%, 5%), "Laureati per provincia di residenza" (15%, 35%, 35%, 10%, 
-% 5%), "Offerta culturale" (5%; 25%; 30%; 35%;5%). Applicare l’analisi delle corrispondenze 
-% multiple fissando il numero delle dimensioni pari a 2.
-% # Dopo aver quantificato le variabili calcolate al punto 5, applicare l’analisi 
-% categoriale delle componenti principali (CATPCA) alle variabili qualitative 
-% ricodificate al punto 5 e a quelle quantitative appena calcolate, fissando il 
-% numero di dimensioni a 2.
-% # Per il campione di 50 province estratto al punto 5 dell'Esercizio 1 dell'Homework 
-% 1, considerare le variabili relative ad un unico dominio e realizzare il biplot 
-% con $\alpha =\left\lbrace 0,\;0\ldotp 5,\;1\right\rbrace \ldotp$      
 
 % Funzioni usate
 %1
