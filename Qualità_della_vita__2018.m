@@ -1,5 +1,5 @@
 %%                                             Statistica Multivariata - Prof. Maurizio Vichi
-%%                                                                   Homework 1
+%%                                                               
 %%                                                              Alessandro Sottile
 %%                                                                 a.a. 2020-2021
 % 
